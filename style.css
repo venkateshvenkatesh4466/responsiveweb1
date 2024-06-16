@@ -1,0 +1,165 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body
+{
+	padding: 10px;
+}
+.container
+{
+	height: auto;
+	width: 100%;
+	border: 1px solid blue;
+}
+.menu
+{
+	height: auto;
+	width: 100%;
+	/*border: 1px solid;*/
+	display: flex;
+	justify-content: space-between;
+	margin: 8px;
+
+}
+.logo
+{
+	height: auto;
+	width: 10%;
+	/*border: 1px solid;
+	background-color: yellow;
+*/
+}
+.logo h3
+{
+	margin: 4px;
+	padding: 5px;
+}
+.logo span
+{
+	color:red;
+}
+.search
+{
+	height: auto;
+	width: 20%;
+	/*border: 1px solid;*/
+	/*background-color: yellow;*/
+	padding: 20px;
+
+}
+.search text
+{
+	font-size: 30px;
+	height: auto;
+	width: 100%
+	/*background-color:red;*/
+}
+.location
+{
+	height: auto;
+	width: 14%;
+	/*border: 1px solid;*/
+	background-color: grey;
+}
+.location h3
+{
+	align-items: center;
+	padding: px;
+	text-align: center;
+	font-size: 16px;
+}
+.location .icon1
+{
+ 	font-size: 26px;
+ 	align-items: center;
+ 	display: flex;
+ 	padding: 15px;
+}
+.login
+{
+	height: auto;
+	width: 12%;
+	/*border: 1px solid;*/
+	background-color: #000000;
+	padding: 10px;
+}
+.login h4
+{
+	align-items: center;
+	padding: 10px;
+	text-align: center;
+	font-size: 16px;
+	color:white;
+}
+.lastlogo
+{
+	height: auto;
+	width: 8%;
+	/*border: 1px solid;*/
+	align-items:center;
+	font-size: 36px;
+	padding: 20px;
+	background-color: pink;
+}
+@media (max-width: 789px)
+{
+	.menu
+	{
+		display: none;
+	}
+}
+.menu2
+{
+	height: auto;
+	width: 100%;
+	/*border: 1px solid;*/
+	display: flex;
+	justify-content: space-between;
+	/*margin: 8px;*/
+	border: 1px solid;
+
+}
+.shopby
+{
+	height: auto;
+	width: 15%;
+	background-color: grey;
+}
+.shopby h2
+{
+	padding: 10px;
+	margin: 5px;
+	font-size: 18px;
+}
+.shopby span
+{
+	font-size: 28px;
+}
+.list
+{
+	height: auto;
+	width: 45%;
+	background-color: grey;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	margin: 5px;
+	padding: 5px;
+
+}
+.smart
+{
+	height: auto;
+	width: 15%;
+	background-color: grey;
+}
+.offers
+{
+	height: auto;
+	width: 15%;
+	background-color: grey;
+}
